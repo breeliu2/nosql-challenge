@@ -11,34 +11,10 @@ In this challenge, we were instructed to evaluate some of the ratings from a foo
 ## Part 2: Update the Database
 Make the following changes to the establishments collection: 
 1. Add the following info to the database: 
-{
-    "BusinessName":"Penang Flavours",
-    "BusinessType":"Restaurant/Cafe/Canteen",
-    "BusinessTypeID":"",
-    "AddressLine1":"Penang Flavours",
-    "AddressLine2":"146A Plumstead Rd",
-    "AddressLine3":"London",
-    "AddressLine4":"",
-    "PostCode":"SE18 7DY",
-    "Phone":"",
-    "LocalAuthorityCode":"511",
-    "LocalAuthorityName":"Greenwich",
-    "LocalAuthorityWebSite":"http://www.royalgreenwich.gov.uk",
-    "LocalAuthorityEmailAddress":"health@royalgreenwich.gov.uk",
-    "scores":{
-        "Hygiene":"",
-        "Structural":"",
-        "ConfidenceInManagement":""
-    },
-    "SchemeType":"FHRS",
-    "geocode":{
-        "longitude":"0.08384000",
-        "latitude":"51.49014200"
-    },
-    "RightToReply":"",
-    "Distance":4623.9723280747176,
-    "NewRatingPending":True
-}
+
+
+<img width="535" alt="Screenshot 2023-05-29 at 1 12 41 PM" src="https://github.com/breeliu2/nosql-challenge/assets/124847109/f10be66e-07d2-4547-8235-17317dadcb63">
+
 2. Find the BusinessTypeId for "Restaurant/Cafe/Canteen" and return only BusinessTypeID and BusinessType fields.
 3. Update the new restaurant with the BusinessTypeID
 4. Remove any establishments within the Dover Local Authority and check to ensure they were deleted. 
